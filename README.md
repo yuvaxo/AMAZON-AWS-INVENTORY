@@ -1,5 +1,5 @@
-AMAZON AWS INVENTORY
-# AMAZON AWS INVENTORY : Serverless Architecture on AWS (Guide)
+AMAZON AWS INVENTORY MANAGEMENT 
+# AMAZON AWS INVENTORY MANAGEMENT : Serverless Architecture on AWS (Guide)
 
 **Introduction:**
 Welcome to the guide on setting up a serverless architecture on AWS. This README provides an overview of the steps outlined below and project developed by [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
