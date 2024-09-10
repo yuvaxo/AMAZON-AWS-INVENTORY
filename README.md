@@ -36,11 +36,11 @@ Optional: Using CloudFormation for Automation
 
 Conclusion
 
-#Introduction
+# Introduction
 
 Inventory management is a critical aspect of any business, ensuring that products are tracked, stored, and replenished efficiently. By leveraging AWS's serverless architecture, businesses can automate and streamline these processes, reducing overhead and increasing agility. This guide provides a comprehensive walkthrough on how to set up an inventory management system using AWS services such as S3, DynamoDB, SNS, and Lambda.
 
-#Prerequisites
+# Prerequisites
 
 Before you begin, ensure that you have the following:
 
@@ -48,7 +48,7 @@ An active AWS account with permissions to create and manage S3 buckets, DynamoDB
 Basic understanding of AWS services, especially S3, DynamoDB, SNS, and Lambda.
 Familiarity with the AWS Management Console and AWS CLI (optional).
 
-#Step 1: Creating an S3 Bucket
+# Step 1: Creating an S3 Bucket
 
 The first step in setting up your inventory management system is to create an S3 bucket where inventory data files will be stored.
 
@@ -60,7 +60,7 @@ Configure additional settings as needed, such as enabling versioning, encryption
 Click on Create bucket to finalize the creation.
 Your S3 bucket is now ready to store inventory data files, such as CSV files containing information on products, stores, and stock counts.
 
-#Step 2: Creating a DynamoDB Table
+# Step 2: Creating a DynamoDB Table
 
 Next, you need to set up a DynamoDB table to store and manage the inventory data.
 
@@ -77,7 +77,7 @@ Add any additional settings, such as enabling streams or encryption.
 Click on Create table to finalize the setup.
 Your DynamoDB table is now ready to store and manage inventory records, such as product availability in different stores.
 
-#Step 3: Creating an SNS Topic
+# Step 3: Creating an SNS Topic
 
 To handle notifications, particularly for low inventory alerts, you will set up an SNS (Simple Notification Service) topic.
 
@@ -89,7 +89,7 @@ Name your topic, for example, LowInventoryAlerts.
 Click on Create topic to finalize.
 Once the topic is created, you can add subscriptions (such as email or SMS) to receive notifications whenever a low inventory event is triggered.
 
-#Step 4: Creating Roles for Lambda Functions
+# Step 4: Creating Roles for Lambda Functions
 
 Lambda functions require permissions to access AWS resources like S3, DynamoDB, and SNS. You'll create an IAM role that grants these permissions.
 
@@ -104,7 +104,7 @@ AWSLambdaBasicExecutionRole for CloudWatch logging.
 Name the role, e.g., LambdaInventoryManagementRole, and click on Create role.
 Your IAM role is now ready to be attached to the Lambda functions you will create in the next step.
 
-#Step 5: Developing Lambda Functions
+# Step 5: Developing Lambda Functions
 
 You will create a series of Lambda functions that will handle different aspects of the inventory management process.
 
@@ -128,7 +128,7 @@ Scan the DynamoDB table for products with inventory below a certain threshold.
 Send a notification to the SNS topic if low inventory is detected.
 Schedule this function using CloudWatch Events to run at regular intervals or trigger it based on specific conditions.
 
-#Step 6: Testing the Setup
+# Step 6: Testing the Setup
 
 Once all components are in place, it's time to test the setup to ensure everything works as expected.
 
@@ -137,7 +137,7 @@ Monitor the execution of the Lambda functions using CloudWatch Logs. Verify that
 Check the DynamoDB table to confirm that the inventory data has been updated correctly.
 Verify that SNS notifications have been received by the subscribers.
 
-#Step 7: Clean-Up
+# Step 7: Clean-Up
 
 After testing, it's important to clean up the resources to avoid incurring unnecessary charges.
 
@@ -156,7 +156,7 @@ Specify the necessary permissions and triggers for each service.
 Deploy the stack via the AWS Management Console or AWS CLI.
 This approach is particularly useful for replicating the setup in different environments or scaling it across multiple regions.
 
-#Conclusion
+# Conclusion
 
 Implementing a serverless architecture on AWS for inventory management offers a scalable, cost-effective solution that can dynamically respond to your business needs. By using AWS services like S3, DynamoDB, SNS, and Lambda, you can automate and streamline inventory processes, reducing manual effort and improving operational efficiency.
 
@@ -174,7 +174,7 @@ This guide has provided a comprehensive overview of how to set up such an archit
 ## Using CloudFormation
 You can create a CloudFormation template to create the above infrasture in the click of a button.
 
-#Conclusion
+# Conclusion
 
 Implementing a serverless architecture on AWS for inventory management offers a scalable, cost-effective solution that can dynamically respond to your business needs. By using AWS services like S3, DynamoDB, SNS, and Lambda, you can automate and streamline inventory processes, reducing manual effort and improving operational efficiency.
 
