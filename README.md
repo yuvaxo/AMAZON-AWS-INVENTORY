@@ -15,15 +15,25 @@ Welcome to the guide on setting up a serverless architecture on AWS. This README
 #Table of Contents
 
 Introduction
+
 Prerequisites
+
 Step 1: Creating an S3 Bucket
+
 Step 2: Creating a DynamoDB Table
+
 Step 3: Creating an SNS Topic
+
 Step 4: Creating Roles for Lambda Functions
+
 Step 5: Developing Lambda Functions
+
 Step 6: Testing the Setup
+
 Step 7: Clean-Up
+
 Optional: Using CloudFormation for Automation
+
 Conclusion
 
 #Introduction
