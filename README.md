@@ -12,7 +12,7 @@ Welcome to the guide on setting up a serverless architecture on AWS. This README
 5. **Creating Lambda Functions**: Develop Lambda functions to read from S3, update DynamoDB, and send SNS notifications.
 
 
-#Table of Contents
+# Table of Contents
 
 Introduction
 
