@@ -181,4 +181,4 @@ Implementing a serverless architecture on AWS for inventory management offers a 
 This guide has provided a comprehensive overview of how to set up such an architecture. Whether you are looking to automate inventory management or implement other serverless applications, AWS provides the tools necessary to build
 ---
 
-*Author: [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
+**Author: [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).**
