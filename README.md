@@ -178,7 +178,7 @@ You can create a CloudFormation template to create the above infrasture in the c
 
 Implementing a serverless architecture on AWS for inventory management offers a scalable, cost-effective solution that can dynamically respond to your business needs. By using AWS services like S3, DynamoDB, SNS, and Lambda, you can automate and streamline inventory processes, reducing manual effort and improving operational efficiency.
 
-This guide has provided a comprehensive overview of how to set up such an architecture. Whether you are looking to automate inventory management or implement other serverless applications, AWS provides the tools necessary to build
+**This guide has provided a comprehensive overview of how to set up such an architecture. Whether you are looking to automate inventory management or implement other serverless applications, AWS provides the tools necessary to build**
 ---
 
 **Author: [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).**
